@@ -20,7 +20,7 @@ from utilities import check_circle_intersection
 async def main():
     load_get_custom_objects()
     w_size = 256
-    train_num = 8192
+    train_num = 100
     train_x = np.zeros((train_num, w_size, w_size, 3), dtype='float32')
     train_y = np.zeros((train_num, w_size, w_size, 1), dtype='float32')
 
